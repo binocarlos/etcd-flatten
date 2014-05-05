@@ -1,6 +1,6 @@
 {
   "name": "etcd-flatten",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Flatten the results of a recursive etcd query into a flat object with keys and values",
   "main": "index.js",
   "scripts": {
