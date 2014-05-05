@@ -1,7 +1,7 @@
 etcd-flatten
 ============
 
-![Build status](https://api.travis-ci.org/binocarlos/etcd-flatten.png)
+[![Travis](http://img.shields.io/travis/binocarlos/etcd-flatten.svg?style=flat)](https://travis-ci.org/binocarlos/etcd-flatten)
 
 Flatten the results of a recursive etcd query into a flat object with keys and values
 
@@ -15,7 +15,7 @@ $ npm install etcd-flatten
 
 Imagine we have some deeply nested keys in etcd:
 
-```
+```bash
 $ etcdctl ls --recursive
 ```
 
@@ -26,7 +26,7 @@ $ etcdctl ls --recursive
 /shapes/circle/green
 /shapes/square
 /shapes/square/red
-```js
+```
 
 We can do a recursive query and get a tree like structure with node.nodes = []
 
