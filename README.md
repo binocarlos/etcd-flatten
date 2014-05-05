@@ -1,6 +1,7 @@
 etcd-flatten
 ============
 
+
 [![Travis](http://img.shields.io/travis/binocarlos/etcd-flatten.svg?style=flat)](https://travis-ci.org/binocarlos/etcd-flatten)
 
 Flatten the results of a recursive etcd query into a flat object with keys and values
