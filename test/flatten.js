@@ -39,3 +39,13 @@ tape('flatten the data', function (t) {
 
   t.end()
 })
+
+
+tape('return en empty object for empty input', function (t) {
+
+  var flat = flatten()
+
+  t.deepEqual(flat, {})
+
+  t.end()
+})
