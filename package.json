@@ -1,0 +1,27 @@
+{
+  "name": "etcd-flatten",
+  "version": "0.0.0",
+  "description": "Flatten the results of a recursive etcd query into a flat object with keys and values",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/etcd-flatten.git"
+  },
+  "keywords": [
+    "etcd",
+    "flatten",
+    "query"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/etcd-flatten/issues"
+  },
+  "homepage": "https://github.com/binocarlos/etcd-flatten",
+  "devDependencies": {
+    "tape": "^2.12.3"
+  }
+}
