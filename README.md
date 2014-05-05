@@ -28,9 +28,9 @@ $ etcdctl ls --recursive
 /shapes/square/red
 ```
 
-We can do a recursive query and get a tree like structure with node.nodes = []
+We can do a recursive query and get a tree like structure
 
-etcd-flatten will take the results of an etcd recursive query and return a flat object with no directories included.
+etcd-flatten will take this tree structure and return a flat object with paths mapped to values and no directories included
 
 ```js
 var etcdjs = require('etcdjs')
